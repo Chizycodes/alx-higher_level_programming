@@ -9,5 +9,3 @@ def safe_print_list(my_list=[], x=0):
     except IndexError:
         print()
         return i
-
-safe_print_list([1, 2, 3, 4, 5], 3)
